@@ -10,3 +10,6 @@ Dla osób pracujących z danymi tekstowymi nasza aplikacja Text Transformer umo�
 
 ### PRZYDATNE LINKI
 - [Zasady punktowania sprintów (DoD)](https://docs.google.com/spreadsheets/d/e/2PACX-1vTn6j3M8pmGEzrsQk8mXse7lVHUdhYWkfxbkQiYI23rBtwM4N3bWw0qtupW-gesfCkcYasnZ-eEXl-F/pubhtml)
+
+### STATUS
+![example workflow](https://github.com/<user>/<repo>/actions/workflows/<file>/badge.svg)
