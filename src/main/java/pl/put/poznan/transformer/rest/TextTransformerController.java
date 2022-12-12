@@ -19,6 +19,7 @@ public class TextTransformerController {
     public String get(@PathVariable String text,
                       @RequestParam(value="transforms", defaultValue="upper,escape") String[] transforms) {
 
+
         // log the parameters
         logger.debug(text);
         logger.debug(Arrays.toString(transforms));
@@ -47,9 +48,6 @@ public class TextTransformerController {
 
     private static IText chooseTransformation(String name, IText transI) {
         return switch (name) {
-            //case "upper" -> new ToUpper(transI);
-            //case "reverse" -> new Reverse(transI);
-            //case "lower" -> new ToLower(transI);
             case "capitalize" -> new Capitalize(transI);
             default -> transI;
         };
