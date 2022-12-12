@@ -17,7 +17,8 @@ public class TextTransformerController {
 
     @RequestMapping(value ="/TextTransform/{text}", method = RequestMethod.GET, produces = "application/json")
     public String get(@PathVariable String text,
-                      @RequestParam(value="transforms", defaultValue="capitalize,escape") String[] transforms) {
+                      @RequestParam(value="transforms", defaultValue="upper,escape") String[] transforms) {
+
 
         // log the parameters
         logger.debug(text);
