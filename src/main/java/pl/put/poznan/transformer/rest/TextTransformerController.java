@@ -47,9 +47,9 @@ public class TextTransformerController {
 
     private static IText chooseTransformation(String name, IText transI) {
         return switch (name) {
-            case "upper" -> new ToUpper(transI);
-            case "reverse" -> new Reverse(transI);
-            case "lower" -> new ToLower(transI);
+            //case "upper" -> new ToUpper(transI);
+            //case "reverse" -> new Reverse(transI);
+            //case "lower" -> new ToLower(transI);
             case "capitalize" -> new Capitalize(transI);
             default -> transI;
         };
