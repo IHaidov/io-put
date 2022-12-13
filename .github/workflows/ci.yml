@@ -25,7 +25,6 @@ jobs:
         run: mvn -B package --file pom.xml
       - name: Create javadoc
         run: mvn javadoc:javadoc
-      - name: Publish package
-        run: mvn --batch-mode deploy
+      
 
      
