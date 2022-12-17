@@ -1,4 +1,4 @@
-name: TextTransformer
+name: Java CI
 on: [push]
 jobs:
   build:
@@ -11,20 +11,17 @@ jobs:
           java-version: '15'
           distribution: 'adopt'
           cache: maven
-   
       - name: Validate, build and run tests
         run: mvn --batch-mode --update-snapshots verify
-        
-      - run: mkdir staging && cp target/*.jar staging
+      - name: Copy .jar
+        run: mkdir build && cp target/*.jar build
       - uses: actions/upload-artifact@v2
         with:
-         name: Package-TextTransformer
-         path: staging
-         
-      - name: Build with Maven
-        run: mvn -B package --file pom.xml
-      - name: Create javadoc
+          name: TextTransformer.jar
+          path: build
+      - name: Javadocs
         run: mvn javadoc:javadoc
-      
-
-     
+      - uses: actions/upload-artifact@v2
+        with:
+          name: docs
+          path: target/site/apidocs
