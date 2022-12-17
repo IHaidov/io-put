@@ -3,16 +3,16 @@ package pl.put.poznan.transformer.logic;
 /**
  * This is just an example to show that the logic should be outside the REST service.
  */
-public abstract class TextTransformer implements IText {
+public class TextTransformer {
+    private String text;
 
-    protected IText transInterface;
-    public TextTransformer(IText transInterface) {
-        this.transInterface = transInterface;
+    public TextTransformer(String text){
+        this.text = text;
     }
 
-    @Override
-    public String transform(String text) {
-        return transInterface.transform(text);
-    }
+    public TextTransformer(){}
 
+    public String transform(){
+        return text;
+    }
 }
