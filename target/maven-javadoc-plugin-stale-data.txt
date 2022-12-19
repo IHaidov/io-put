@@ -1,0 +1,70 @@
+@options
+@packages
+@argfile
+--class-path
+'C:/Users/Ivan/OneDrive/PUT/5 semestr/IO/TextTransformer/TextTransformer/target/io-project-architecture-1.0.jar;C:/Users/Ivan/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.3.3.RELEASE/spring-boot-starter-web-2.3.3.RELEASE.jar;C:/Users/Ivan/.m2/repository/org/springframework/boot/spring-boot-starter/2.3.3.RELEASE/spring-boot-starter-2.3.3.RELEASE.jar;C:/Users/Ivan/.m2/repository/org/springframework/boot/spring-boot/2.3.3.RELEASE/spring-boot-2.3.3.RELEASE.jar;C:/Users/Ivan/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.3.3.RELEASE/spring-boot-autoconfigure-2.3.3.RELEASE.jar;C:/Users/Ivan/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.3.3.RELEASE/spring-boot-starter-logging-2.3.3.RELEASE.jar;C:/Users/Ivan/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar;C:/Users/Ivan/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar;C:/Users/Ivan/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.3/log4j-to-slf4j-2.13.3.jar;C:/Users/Ivan/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar;C:/Users/Ivan/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar;C:/Users/Ivan/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar;C:/Users/Ivan/.m2/repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar;C:/Users/Ivan/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.3.3.RELEASE/spring-boot-starter-json-2.3.3.RELEASE.jar;C:/Users/Ivan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.2/jackson-databind-2.11.2.jar;C:/Users/Ivan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.2/jackson-annotations-2.11.2.jar;C:/Users/Ivan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.2/jackson-core-2.11.2.jar;C:/Users/Ivan/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.2/jackson-datatype-jdk8-2.11.2.jar;C:/Users/Ivan/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.2/jackson-datatype-jsr310-2.11.2.jar;C:/Users/Ivan/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.2/jackson-module-parameter-names-2.11.2.jar;C:/Users/Ivan/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.3.3.RELEASE/spring-boot-starter-tomcat-2.3.3.RELEASE.jar;C:/Users/Ivan/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.37/tomcat-embed-core-9.0.37.jar;C:/Users/Ivan/.m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.jar;C:/Users/Ivan/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.37/tomcat-embed-websocket-9.0.37.jar;C:/Users/Ivan/.m2/repository/org/springframework/spring-web/5.2.8.RELEASE/spring-web-5.2.8.RELEASE.jar;C:/Users/Ivan/.m2/repository/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar;C:/Users/Ivan/.m2/repository/org/springframework/spring-webmvc/5.2.8.RELEASE/spring-webmvc-5.2.8.RELEASE.jar;C:/Users/Ivan/.m2/repository/org/springframework/spring-aop/5.2.8.RELEASE/spring-aop-5.2.8.RELEASE.jar;C:/Users/Ivan/.m2/repository/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar;C:/Users/Ivan/.m2/repository/org/springframework/spring-expression/5.2.8.RELEASE/spring-expression-5.2.8.RELEASE.jar;C:/Users/Ivan/.m2/repository/org/springframework/spring-core/5.2.8.RELEASE/spring-core-5.2.8.RELEASE.jar;C:/Users/Ivan/.m2/repository/org/springframework/spring-jcl/5.2.8.RELEASE/spring-jcl-5.2.8.RELEASE.jar;C:/Users/Ivan/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar;C:/Users/Ivan/.m2/repository/commons-lang/commons-lang/2.5/commons-lang-2.5.jar;C:/Users/Ivan/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar'
+-encoding
+'UTF-8'
+-public
+-source
+'15'
+-sourcepath
+'C:/Users/Ivan/OneDrive/PUT/5 semestr/IO/TextTransformer/TextTransformer/src/main/java;C:/Users/Ivan/OneDrive/PUT/5 semestr/IO/TextTransformer/TextTransformer/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Ivan/OneDrive/PUT/5 semestr/IO/TextTransformer/TextTransformer/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'io-project-architecture 1.0 API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/15/docs/api' 'C:/Users/Ivan/OneDrive/PUT/5 semestr/IO/TextTransformer/TextTransformer/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'io-project-architecture 1.0 API'
+pl.put.poznan.transformer.app
+pl.put.poznan.transformer.logic
+pl.put.poznan.transformer.rest
+'C:/Users/Ivan/OneDrive/PUT/5 semestr/IO/TextTransformer/TextTransformer/src/main/java/pl/put/poznan/transformer/app/TextTransformerApplication.java'
+'C:/Users/Ivan/OneDrive/PUT/5 semestr/IO/TextTransformer/TextTransformer/src/main/java/pl/put/poznan/transformer/logic/Capitalize.java'
+'C:/Users/Ivan/OneDrive/PUT/5 semestr/IO/TextTransformer/TextTransformer/src/main/java/pl/put/poznan/transformer/logic/CipherCaesar.java'
+'C:/Users/Ivan/OneDrive/PUT/5 semestr/IO/TextTransformer/TextTransformer/src/main/java/pl/put/poznan/transformer/logic/CollapseToShortcuts.java'
+'C:/Users/Ivan/OneDrive/PUT/5 semestr/IO/TextTransformer/TextTransformer/src/main/java/pl/put/poznan/transformer/logic/DecipherCaesar.java'
+'C:/Users/Ivan/OneDrive/PUT/5 semestr/IO/TextTransformer/TextTransformer/src/main/java/pl/put/poznan/transformer/logic/ExtendShortcuts.java'
+'C:/Users/Ivan/OneDrive/PUT/5 semestr/IO/TextTransformer/TextTransformer/src/main/java/pl/put/poznan/transformer/logic/Inverse.java'
+'C:/Users/Ivan/OneDrive/PUT/5 semestr/IO/TextTransformer/TextTransformer/src/main/java/pl/put/poznan/transformer/logic/LowerCase.java'
+'C:/Users/Ivan/OneDrive/PUT/5 semestr/IO/TextTransformer/TextTransformer/src/main/java/pl/put/poznan/transformer/logic/NumberToText.java'
+'C:/Users/Ivan/OneDrive/PUT/5 semestr/IO/TextTransformer/TextTransformer/src/main/java/pl/put/poznan/transformer/logic/Permutations.java'
+'C:/Users/Ivan/OneDrive/PUT/5 semestr/IO/TextTransformer/TextTransformer/src/main/java/pl/put/poznan/transformer/logic/RepetitionsRemove.java'
+'C:/Users/Ivan/OneDrive/PUT/5 semestr/IO/TextTransformer/TextTransformer/src/main/java/pl/put/poznan/transformer/logic/SignsInLatex.java'
+'C:/Users/Ivan/OneDrive/PUT/5 semestr/IO/TextTransformer/TextTransformer/src/main/java/pl/put/poznan/transformer/logic/TextToNumber.java'
+'C:/Users/Ivan/OneDrive/PUT/5 semestr/IO/TextTransformer/TextTransformer/src/main/java/pl/put/poznan/transformer/logic/TextTransformer.java'
+'C:/Users/Ivan/OneDrive/PUT/5 semestr/IO/TextTransformer/TextTransformer/src/main/java/pl/put/poznan/transformer/logic/UpperCase.java'
+'C:/Users/Ivan/OneDrive/PUT/5 semestr/IO/TextTransformer/TextTransformer/src/main/java/pl/put/poznan/transformer/rest/Request.java'
+'C:/Users/Ivan/OneDrive/PUT/5 semestr/IO/TextTransformer/TextTransformer/src/main/java/pl/put/poznan/transformer/rest/TextTransformerController.java'
+C:\Users\Ivan\OneDrive\PUT\5 semestr\IO\TextTransformer\TextTransformer\src\main\java = 1671285182716
+C:\Users\Ivan\OneDrive\PUT\5 semestr\IO\TextTransformer\TextTransformer\target\generated-sources\annotations = 1671455375720
+C:\Users\Ivan\OneDrive\PUT\5 semestr\IO\TextTransformer\TextTransformer\target\apidocs\allclasses-index.html = 1671455399789
+C:\Users\Ivan\OneDrive\PUT\5 semestr\IO\TextTransformer\TextTransformer\target\apidocs\allpackages-index.html = 1671455399799
+C:\Users\Ivan\OneDrive\PUT\5 semestr\IO\TextTransformer\TextTransformer\target\apidocs\constant-values.html = 1671455399392
+C:\Users\Ivan\OneDrive\PUT\5 semestr\IO\TextTransformer\TextTransformer\target\apidocs\deprecated-list.html = 1671455399630
+C:\Users\Ivan\OneDrive\PUT\5 semestr\IO\TextTransformer\TextTransformer\target\apidocs\element-list = 1671455399310
+C:\Users\Ivan\OneDrive\PUT\5 semestr\IO\TextTransformer\TextTransformer\target\apidocs\help-doc.html = 1671455399835
+C:\Users\Ivan\OneDrive\PUT\5 semestr\IO\TextTransformer\TextTransformer\target\apidocs\index-all.html = 1671455399739
+C:\Users\Ivan\OneDrive\PUT\5 semestr\IO\TextTransformer\TextTransformer\target\apidocs\index.html = 1671455399637
+C:\Users\Ivan\OneDrive\PUT\5 semestr\IO\TextTransformer\TextTransformer\target\apidocs\jquery-ui.overrides.css = 1671455400005
+C:\Users\Ivan\OneDrive\PUT\5 semestr\IO\TextTransformer\TextTransformer\target\apidocs\member-search-index.js = 1671455399732
+C:\Users\Ivan\OneDrive\PUT\5 semestr\IO\TextTransformer\TextTransformer\target\apidocs\module-search-index.js = 1671455399715
+C:\Users\Ivan\OneDrive\PUT\5 semestr\IO\TextTransformer\TextTransformer\target\apidocs\overview-summary.html = 1671455399817
+C:\Users\Ivan\OneDrive\PUT\5 semestr\IO\TextTransformer\TextTransformer\target\apidocs\overview-tree.html = 1671455399594
+C:\Users\Ivan\OneDrive\PUT\5 semestr\IO\TextTransformer\TextTransformer\target\apidocs\package-search-index.js = 1671455399726
+C:\Users\Ivan\OneDrive\PUT\5 semestr\IO\TextTransformer\TextTransformer\target\apidocs\script.js = 1671455399865
+C:\Users\Ivan\OneDrive\PUT\5 semestr\IO\TextTransformer\TextTransformer\target\apidocs\search.js = 1671455399898
+C:\Users\Ivan\OneDrive\PUT\5 semestr\IO\TextTransformer\TextTransformer\target\apidocs\stylesheet.css = 1671455399854
+C:\Users\Ivan\OneDrive\PUT\5 semestr\IO\TextTransformer\TextTransformer\target\apidocs\tag-search-index.js = 1671455399735
+C:\Users\Ivan\OneDrive\PUT\5 semestr\IO\TextTransformer\TextTransformer\target\apidocs\type-search-index.js = 1671455399730
