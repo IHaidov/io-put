@@ -1,7 +1,7 @@
 package pl.put.poznan.transformer.logic;
 
 /**
- * Klasa odpoiedzialna za zamiane liczb na tekst, zamiana dziala dla liczb miedzy 0 a 1000000.
+ * Klasa odpowiedzialna za zamiane liczb na tekst, zamiana dziala dla liczb miedzy 0 a 1000000.
  * Klasa posiada 3 atrybuty:
  *      - trans, przchowuje nadrzednego dekoratora.
  *      - NumberTextPL, tablica String-ow zawierajaca slowne zapisy skladowych liczb.

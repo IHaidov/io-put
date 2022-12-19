@@ -1,0 +1,17 @@
+pl\put\poznan\transformer\logic\CollapseToShortcuts.class
+pl\put\poznan\transformer\logic\DecipherCaesar.class
+pl\put\poznan\transformer\logic\TextToNumber.class
+pl\put\poznan\transformer\logic\Inverse.class
+pl\put\poznan\transformer\logic\CipherCaesar.class
+pl\put\poznan\transformer\logic\Permutations.class
+pl\put\poznan\transformer\logic\RepetitionsRemove.class
+pl\put\poznan\transformer\logic\LowerCase.class
+pl\put\poznan\transformer\logic\NumberToText.class
+pl\put\poznan\transformer\logic\Capitalize.class
+pl\put\poznan\transformer\app\TextTransformerApplication.class
+pl\put\poznan\transformer\logic\SignsInLatex.class
+pl\put\poznan\transformer\logic\UpperCase.class
+pl\put\poznan\transformer\rest\Request.class
+pl\put\poznan\transformer\rest\TextTransformerController.class
+pl\put\poznan\transformer\logic\ExtendShortcuts.class
+pl\put\poznan\transformer\logic\TextTransformer.class
